@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /* It manages user who is registered in course
  * 

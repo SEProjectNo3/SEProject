@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
 public class ExamDAO 
 {
-	private static ExamDao examDao;
+	private static ExamDAO examDao;
 	
 	public boolean insertExam(String tempLectureId, String tempQuestion, ArrayList<String> tempChoice, int tempAnswer)
 	{

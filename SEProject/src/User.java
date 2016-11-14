@@ -1,4 +1,4 @@
-
+import java.util.HashMap;
 
 public class User
 {
@@ -13,8 +13,7 @@ public class User
 
 	public void User()
 	{
-		super();
-		
+	
 	}
 	
 	public String getId() {

@@ -1,8 +1,10 @@
+import java.sql.Date;
+import java.util.ArrayList;
 
 public class Quiz 
 {
 	private int quizNo;
-	private string lectureId;
+	private String lectureId;
 	private String question;
 	private int answer;
 	private ArrayList<String> choice;
@@ -13,10 +15,10 @@ public class Quiz
 	public void setQuizNo(int quizNo) {
 		this.quizNo = quizNo;
 	}
-	public string getLectureId() {
+	public String getLectureId() {
 		return lectureId;
 	}
-	public void setLectureId(string lectureId) {
+	public void setLectureId(String lectureId) {
 		this.lectureId = lectureId;
 	}
 	public String getQuestion() {

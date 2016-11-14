@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 
 public class Lecture 
 {
 	private String lectureId;
 	private String title;
 	private String explanation;
+	
 	private ArrayList<String> materialList;
 	private String filePath;
 	private int hits;

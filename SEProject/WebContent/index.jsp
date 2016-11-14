@@ -55,7 +55,27 @@
             
             <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Serach">
+              <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 강의명 <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                <input type="text" class="form-control" placeholder="Search">
                 <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>        
               </div>
             </form>

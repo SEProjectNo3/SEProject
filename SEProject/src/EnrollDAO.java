@@ -1,7 +1,8 @@
+import java.util.ArrayList;
 
 public class EnrollDAO 
 {
-	private static EnrollDao enrollDao;
+	private static EnrollDAO enrollDao;
 	
 	public boolean insertEnroll(String tempProfessor, String tempStudent, String tempCourseNumber)
 	{

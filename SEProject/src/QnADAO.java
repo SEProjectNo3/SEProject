@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class QnADAO 
 {
@@ -15,7 +16,7 @@ public class QnADAO
 	{
 		
 	}
-	public boolean deleteResponse(int tempQuestionNo, tempResponseNo)
+	public boolean deleteResponse(int tempQuestionNo, int tempResponseNo)
 	{
 		
 	}
